@@ -1,0 +1,16 @@
+{
+  "sec": {
+    "title":"Ten Second Que", 
+    "tasks": [
+  ]},
+  "min": {
+    "title":"Sixty Minute Que", 
+    "tasks": [
+    {"tick":3, "script":"./scripts/backup_home.sh"}
+  ]},
+  "hr": {
+    "title":"24 Hour Que", 
+    "tasks": [
+    {"tick":3, "script":"./scripts/hr1.sh"}
+  ]}
+}
